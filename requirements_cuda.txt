@@ -1,0 +1,34 @@
+# Virtual Try-On - CUDA/GPU Requirements
+# Install with: pip install -r requirements_cuda.txt
+
+# PyTorch with CUDA support
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Diffusers for AI models
+diffusers>=0.25.0
+transformers>=4.36.0
+accelerate>=0.25.0
+safetensors>=0.4.0
+
+# Image processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Web framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# Demo UI
+streamlit>=1.31.0
+
+# Utilities
+pydantic>=2.0.0
+tqdm>=4.65.0
+
+# Optional: xformers for faster inference (uncomment if needed)
+# xformers>=0.0.23
+
