@@ -1,0 +1,28 @@
+# Virtual Try-On PoC Dependencies
+
+# Web Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Pose Estimation
+mediapipe>=0.10.30
+
+# Image Processing
+opencv-python>=4.9.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Background Removal (garment mask fallback)
+rembg>=2.0.50
+
+# Demo UI
+streamlit>=1.31.0
+
+# Utilities
+pydantic>=2.0.0
+
